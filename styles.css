@@ -12,11 +12,11 @@ body{
     flex-direction: column;
     font-size: 30px;
     border-radius: 20px;
-    width: auto;
+    width: 850px;
 }
 
 h1{
-    width: 850px;
+    width: 800px;
     height: 100px;
     text-align: center;
     vertical-align: middle;
@@ -33,7 +33,7 @@ h1{
     font: 30px;
 }
 #personalInformation{
-    width: 900px;
+    width: 850px;
     height:500px ;
     display: flex;
     align-items: center;
@@ -41,6 +41,7 @@ h1{
     flex-direction: column;
     margin: 10px;
     border-radius: 20px;
+    border: none;
 }
 #personalInformation legend{
     text-align: left;
@@ -60,6 +61,8 @@ h1{
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
 }
 .education legend, .experience legend, .skills legend{
     /* height: 200px; */
@@ -68,7 +71,7 @@ h1{
     
 }
 .education textarea, .experience textarea, .skills textarea{
-    width: 800px;
+    width: 850px;
     height: 300px;
     font-size: 25px;
     border-radius: 20px;
@@ -95,8 +98,8 @@ button:hover{
     color: white;
 }
 #resumeDisplay{
- width: 850px;
- height: 900px;
+ width: 800px;
+ min-height: 600px;
  border: 2px solid black;
  font-size: 30px;
  line-height: 30px;
@@ -112,7 +115,11 @@ button:hover{
     padding: 20px;
     font-size: 60px;
     border-radius: 20px;
-    /* text-align: center; */
+    
+}
+#resumeDisplay h2{
+    text-align: left;
+    margin: 50px;
 }
 footer{
     text-align: center;
